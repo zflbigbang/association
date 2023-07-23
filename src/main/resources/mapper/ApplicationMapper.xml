@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.association.mapper.ApplicationMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.association.entity.Application">
+            <id property="appno" column="appNO" jdbcType="INTEGER"/>
+            <result property="actno" column="actNo" jdbcType="INTEGER"/>
+            <result property="perno" column="perNO" jdbcType="INTEGER"/>
+            <result property="appdata" column="appData" jdbcType="DATE"/>
+            <result property="appsta" column="appSta" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        appNO,actNo,perNO,
+        appData,appSta
+    </sql>
+</mapper>

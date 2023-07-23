@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.association.mapper.AssociationMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.association.entity.Association">
+            <id property="assno" column="assNo" jdbcType="INTEGER"/>
+            <result property="assname" column="assName" jdbcType="VARCHAR"/>
+            <result property="asssta" column="assSta" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        assNo,assName,assSta
+    </sql>
+</mapper>
