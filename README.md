@@ -35,5 +35,7 @@
 - 前台登录页面
 
   ![image-20230816153800680](README.assets/image-20230816153800680.png)
+# 6. 前端产库地址
+https://github.com/zflbigbang/association-vue.git
 
   
